@@ -1,33 +1,33 @@
-# 🔬 Biometric Forensic Analyzer
+#  Biometric Forensic Analyzer
 
 A scalable AI-powered system for **biometric facial analysis and digital forensics** built using FastAPI, Celery, and Docker.
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 The **Biometric Forensic Analyzer** processes video inputs to extract and analyze facial biometrics and detect forensic inconsistencies such as tampering or deepfake artifacts.
 
 It combines:
 
-* 🧠 Computer Vision (Face Mesh, Eye Tracking, YOLO)
-* 🔍 Digital Forensics (ELA, PRNU, Metadata)
-* ⚡ Scalable Backend (FastAPI + Celery + Docker)
+*  Computer Vision (Face Mesh, Eye Tracking, YOLO)
+*  Digital Forensics (ELA, PRNU, Metadata)
+*  Scalable Backend (FastAPI + Celery + Docker)
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 * **FastAPI** → REST API layer
 * **Celery** → Asynchronous background processing
 * **Redis / Queue** → Task broker
 * **Docker Compose** → Multi-service orchestration
 
-👉 Entire system runs using **containerized microservices** ([testdriven.io][1])
+ Entire system runs using **containerized microservices** ([testdriven.io][1])
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 biometric-forensic-analyzer/
@@ -72,7 +72,7 @@ biometric-forensic-analyzer/
 
 ---
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### 🔥 Option 1: Run with Docker (Recommended)
 
